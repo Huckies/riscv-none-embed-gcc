@@ -1331,6 +1331,10 @@ DEFPARAM(PARAM_AVOID_FMA_MAX_BITS,
 	 "Maximum number of bits for which we avoid creating FMAs.",
 	 0, 0, 512)
 
+DEFPARAM (PARAM_HIGHCODE_GEN_SECTION_NAME,
+	  "highcode-gen-section-name",
+	  "__attribute__((section(.highcode))) generate new section name",
+	  0, 0, 1)
 /*
 
 Local variables:
